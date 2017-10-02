@@ -1,0 +1,9 @@
+[ {
+  "name" : "Stockfish 7 x64",
+  "path" : "stockfish_7_x64.exe",
+  "description" : "Stockfish Chess Engine"
+}, {
+  "name" : "asd asd",
+  "path" : "asd",
+  "description" : ""
+} ]
