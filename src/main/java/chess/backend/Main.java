@@ -27,7 +27,7 @@ public class Main {
         if (count == 0) {
             System.out.print("Unknown command: ");
             Arrays.stream(args)
-                    .forEach(System.out::print);
+                    .forEach(arg -> System.out.print(arg + " "));
             System.out.println();
             System.out.println("Here is the list of available commands: ");
             new Help().execute();

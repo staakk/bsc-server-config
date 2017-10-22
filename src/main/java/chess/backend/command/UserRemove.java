@@ -17,7 +17,7 @@ public class UserRemove implements Command {
 
     @Override
     public boolean checkArgs(String... args) {
-        return ArgsCount.equals(4, args)
+        return ArgsCount.equals(3, args)
                 && Arg.is(args[0], "user")
                 && Arg.is(args[1], "rm");
     }
